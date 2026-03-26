@@ -1,53 +1,52 @@
 
-### Prerequisites
-- Python 3.8 or higher.
+### 𝙿𝚛𝚎𝚛𝚎𝚚𝚞𝚒𝚜𝚒𝚝𝚎𝚜
+- 𝙿𝚢𝚝𝚑𝚘𝚗 𝟹.𝟾 𝚘𝚛 𝚑𝚒𝚐𝚑𝚎𝚛.
 - No external dependencies required (uses standard library).
 
 ### Setup
-
-1. Clone the repository:
+𝟷. 𝙲𝚕𝚘𝚗𝚎 𝚝𝚑𝚎 𝚛𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚢:
    ```bash
-   git clone <repository-url>
-   cd MAIN
+   𝚐𝚒𝚝 𝚌𝚕𝚘𝚗𝚎 <𝚛𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚢-𝚞𝚛𝚕>
+   𝚌𝚍 𝙼𝙰𝙸𝙽
    ```
 
-2. (Optional) Build with Docker:
+𝟸. (𝙾𝚙𝚝𝚒𝚘𝚗𝚊𝚕) 𝙱𝚞𝚒𝚕𝚍 𝚠𝚒𝚝𝚑 𝙳𝚘𝚌𝚔𝚎𝚛:
    ```bash
-   docker build -t myshell .
-   docker run -it myshell
+   𝚍𝚘𝚌𝚔𝚎𝚛 𝚋𝚞𝚒𝚕𝚍 -𝚝 𝚖𝚢𝚜𝚑𝚎𝚕𝚕.
+   𝚍𝚘𝚌𝚔𝚎𝚛 𝚛𝚞𝚗 -𝚒𝚝 𝚖𝚢𝚜𝚑𝚎𝚕𝚕
    ```
 
-## Usage
+## 𝚄𝚜𝚊𝚐𝚎
 
-### Interactive Mode
+### 𝙸𝚗𝚝𝚎𝚛𝚊𝚌𝚝𝚒𝚟𝚎 𝙼𝚘𝚍𝚎
 
-Launch the shell for interactive use:
+𝙻𝚊𝚞𝚗𝚌𝚑 𝚝𝚑𝚎 𝚜𝚑𝚎𝚕𝚕 𝚏𝚘𝚛 𝚒𝚗𝚝𝚎𝚛𝚊𝚌𝚝𝚒𝚟𝚎 𝚞𝚜𝚎:
 ```bash
-python3 sh.py
+𝚙𝚢𝚝𝚑𝚘𝚗𝟹 𝚜𝚑.𝚙𝚢
 ```
 
-### Script Mode
+### 𝚂𝚌𝚛𝚒𝚙𝚝 𝙼𝚘𝚍𝚎
 
-Run a shell script file:
+𝚁𝚞𝚗 𝚊 𝚜𝚑𝚎𝚕𝚕 𝚜𝚌𝚛𝚒𝚙𝚝 𝚏𝚒𝚕𝚎:
 ```bash
-python3 sh.py your_script.sh
+𝚙𝚢𝚝𝚑𝚘𝚗𝟹 𝚜𝚑.𝚙𝚢 𝚢𝚘𝚞𝚛_𝚜𝚌𝚛𝚒𝚙𝚝.𝚜𝚑
 ```
 
-### Running Tests
+### 𝚁𝚞𝚗𝚗𝚒𝚗𝚐 𝚃𝚎𝚜𝚝𝚜
 
-Execute the test suite using `pytest`:
+𝙴𝚡𝚎𝚌𝚞𝚝𝚎 𝚝𝚑𝚎 𝚝𝚎𝚜𝚝 𝚜𝚞𝚒𝚝𝚎 𝚞𝚜𝚒𝚗𝚐 `𝚙𝚢𝚝𝚎𝚜𝚝`:
 ```bash
-./test.sh
+./𝚝𝚎𝚜𝚝.𝚜𝚑
 ```
-Or directly:
+𝙾𝚛 𝚍𝚒𝚛𝚎𝚌𝚝𝚕𝚢:
 ```bash
-pytest test/
+𝚙𝚢𝚝𝚎𝚜𝚝 𝚝𝚎𝚜𝚝/
 ```
 
-### Contributing
+### 𝙲𝚘𝚗𝚝𝚛𝚒𝚋𝚞𝚝𝚒𝚗𝚐
 
-Contributions are welcome! Please refer to [contrib.md](contrib.md) for guidelines and the [roadmap.md](roadmap.md) for planned features.
+𝙲𝚘𝚗𝚝𝚛𝚒𝚋𝚞𝚝𝚒𝚘𝚗𝚜 𝚊𝚛𝚎 𝚠𝚎𝚕𝚌𝚘𝚖𝚎! 𝙿𝚕𝚎𝚊𝚜𝚎 𝚛𝚎𝚏𝚎𝚛 𝚝𝚘 [𝚌𝚘𝚗𝚝𝚛𝚒𝚋.𝚖𝚍](𝚌𝚘𝚗𝚝𝚛𝚒𝚋.𝚖𝚍) 𝚏𝚘𝚛 𝚐𝚞𝚒𝚍𝚎𝚕𝚒𝚗𝚎𝚜 𝚊𝚗𝚍 𝚝𝚑𝚎 [𝚛𝚘𝚊𝚍𝚖𝚊𝚙.𝚖𝚍](𝚛𝚘𝚊𝚍𝚖𝚊𝚙.𝚖𝚍) 𝚏𝚘𝚛 𝚙𝚕𝚊𝚗𝚗𝚎𝚍 𝚏𝚎𝚊𝚝𝚞𝚛𝚎𝚜.
 
-## License
+## 𝙻𝚒𝚌𝚎𝚗𝚜𝚎
 
-This project is licensed under the terms found in the [license](license) file.
+𝚃𝚑𝚒𝚜 𝚙𝚛𝚘𝚓𝚎𝚌𝚝 𝚒𝚜 𝚕𝚒𝚌𝚎𝚗𝚜𝚎𝚍 𝚞𝚗𝚍𝚎𝚛 𝚝𝚑𝚎 𝚝𝚎𝚛𝚖𝚜 𝚏𝚘𝚞𝚗𝚍 𝚒𝚗 𝚝𝚑𝚎 [𝚕𝚒𝚌𝚎𝚗𝚜𝚎](𝚕𝚒𝚌𝚎𝚗𝚜𝚎) 𝚏𝚒𝚕𝚎.
